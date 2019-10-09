@@ -147,21 +147,16 @@
   }
 
   .portcontainer {
+      position: relative;
       float: left;
       width: 200px;
       height: 200px;
       margin: 30px 50px;
+      border: 1px solid black;
   }
 
   .portimage {
       width: 200px;
-  }
-
-  .portimagecont {
-    float: left;
-      width: 200;
-      height: 200px;
-      border: 1px solid #000;
   }
 
   .porttitle {
