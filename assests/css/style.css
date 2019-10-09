@@ -1,6 +1,6 @@
   * {
       text-align: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif
+      'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
 
   body {
@@ -10,19 +10,41 @@
       color: #333;
   }
 
-a {
-    text-decoration: none;
-    color: lightslategrey;
-}
+  a {
+      text-decoration: none;
+      color: lightslategrey;
+  }
 
-form {
-    text-align: left;
-    margin-top: 10px;
-}
+  img {
+      float: left;
+      display: inline-block;
+  }
 
-input {
-  margin-bottom: 10px;
-}
+  p {
+      text-align: left;
+      color: lightslategrey;
+      font-size: 12px;
+  }
+
+  form {
+      text-align: left;
+      margin-top: 10px;
+  }
+
+  input {
+      margin-bottom: 10px;
+      text-align: left;
+  }
+
+  label {
+      color: lightslategrey;
+      font-size: 12px;
+  }
+
+  .aboutimage {
+      width: 250px;
+      margin: 0px 20px 20px 0px;
+  }
 
   #header {
       position: fixed;
@@ -31,18 +53,18 @@ input {
       text-align: center;
       width: 100%;
       height: 60px;
-      background:#fff;
+      background: #fff;
   }
 
   #headercontainer {
       display: inline-block;
-      width: 600px;
+      width: 960px;
       height: 60px;
       clear: both;
   }
 
   #name {
-    display: inline-block;
+      display: inline-block;
       float: left;
       width: 200px;
       height: 60px;
@@ -53,7 +75,7 @@ input {
   }
 
   #aboutlink {
-    display: inline-block;
+      display: inline-block;
       float: left;
       width: 80px;
       color: lightslategrey;
@@ -63,7 +85,7 @@ input {
   }
 
   #portfoliolink {
-    display: inline-block;
+      display: inline-block;
       float: left;
       width: 80px;
       color: lightslategrey;
@@ -72,7 +94,7 @@ input {
   }
 
   #contactlink {
-    display: inline-block;
+      display: inline-block;
       float: left;
       width: 65px;
       color: lightslategrey;
@@ -82,13 +104,13 @@ input {
   }
 
   .divider {
-    display: inline-block;
-    float: left;
-    width: 5px;
-    color: lightslategrey;
-    font-size: 12px;
-    line-height: 60px;
-}
+      display: inline-block;
+      float: left;
+      width: 5px;
+      color: lightslategrey;
+      font-size: 12px;
+      line-height: 60px;
+  }
 
   #bodycontainer {
       clear: both;
@@ -96,34 +118,59 @@ input {
       align-content: center;
       padding: 20px;
       margin-top: 80px;
-      width: 560px;
+      width: 920px;
       background-color: #fff;
   }
 
   h1 {
+      float: left;
+      color: lightslategrey;
+      font-size: 24px;
+  }
+
+  #greybar {
+      display: inline-block;
+      height: 2px;
+      width: 920px;
+      background-color: lightgrey;
+      margin-bottom: 5px;
+  }
+
+  #largeportcont {
+      display: inline-block;
+      width: 920px;
+      padding-bottom: 30px;
+  }
+
+  .portcontainer {
+      float: left;
+      width: 200px;
+      height: 200px;
+      margin: 30px 50px;
+  }
+
+  .portimage {
+      width: 200px;
+  }
+
+  .portimagecont {
     float: left;
-    color: lightslategrey;
-    font-size: 24px;
-}
+      width: 200;
+      height: 200px;
+      border: 1px solid #000;
+  }
 
-#greybar {
-    display: inline-block;
-    height: 2px;
-    width: 560px;
-    background-color: lightgrey;
-    margin-bottom: 5px;
-}
-
-img {
-    float: left;
-    display: inline-block;
-    width: 100px;
-    margin: 0px 10px 10px 0px;
-}
-
-p {
-    text-align: left;
-}
+  .porttitle {
+      position: relative;
+      bottom: 50px;
+      float: left;
+      width: 200px;
+      height: 35px;
+      color: #fff;
+      background-color: lightslategrey;
+      font-size: 18px;
+      line-height: 35px;
+  }
 
   footer {
       position: fixed;
