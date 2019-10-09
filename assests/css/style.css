@@ -26,6 +26,12 @@
       font-size: 12px;
   }
 
+  h1 {
+      float: left;
+      color: lightslategrey;
+      font-size: 24px;
+  }
+
   form {
       text-align: left;
       margin-top: 10px;
@@ -44,6 +50,10 @@
   .aboutimage {
       width: 250px;
       margin: 0px 20px 20px 0px;
+  }
+
+  .mytextbox{
+      width: 920px;
   }
 
   #header {
@@ -81,7 +91,7 @@
       color: lightslategrey;
       font-size: 12px;
       line-height: 60px;
-      margin-left: 165px;
+      margin-left: 500px;
   }
 
   #portfoliolink {
@@ -120,12 +130,6 @@
       margin-top: 80px;
       width: 920px;
       background-color: #fff;
-  }
-
-  h1 {
-      float: left;
-      color: lightslategrey;
-      font-size: 24px;
   }
 
   #greybar {
