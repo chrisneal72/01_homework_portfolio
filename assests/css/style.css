@@ -1,13 +1,25 @@
   * {
       text-align: center;
-      'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   }
+
+  /* HTML Elements */
 
   body {
       background-image: url("../images/bg.jpg");
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 12px;
       color: #333;
+  }
+
+  header {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      text-align: center;
+      width: 100%;
+      height: 60px;
+      background: #fff;
+      z-index: 99;
   }
 
   a {
@@ -23,7 +35,7 @@
   p {
       text-align: left;
       color: lightslategrey;
-      font-size: 12px;
+      font-size: 16px;
   }
 
   h1 {
@@ -47,30 +59,14 @@
       font-size: 12px;
   }
 
-  .aboutimage {
-      width: 250px;
-      margin: 0px 20px 20px 0px;
-  }
-
-  .mytextbox{
-      width: 920px;
-  }
-
-  #header {
-      position: fixed;
-      left: 0px;
-      top: 0px;
-      text-align: center;
-      width: 100%;
-      height: 60px;
-      background: #fff;
-  }
+  /* Menu Items */
 
   #headercontainer {
-      display: inline-block;
+      margin: 0 auto;
       width: 960px;
       height: 60px;
       clear: both;
+      z-index: 99;
   }
 
   #name {
@@ -122,6 +118,8 @@
       line-height: 60px;
   }
 
+  /* Common Body Elements */
+
   #bodycontainer {
       clear: both;
       display: inline-block;
@@ -145,6 +143,21 @@
       width: 920px;
       padding-bottom: 30px;
   }
+
+  /* About Elements */
+
+  .aboutimage {
+      width: 250px;
+      margin: 0px 20px 20px 0px;
+  }
+
+  /* Contact Elements */
+
+  .mytextbox {
+      width: 920px;
+  }
+
+  /* Portfolio Elements */
 
   .portcontainer {
       position: relative;
@@ -170,6 +183,8 @@
       font-size: 18px;
       line-height: 35px;
   }
+
+  /* Footer Styling */
 
   footer {
       position: fixed;
